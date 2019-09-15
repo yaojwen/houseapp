@@ -1,0 +1,24 @@
+.top-search{
+    display: flex;
+    height: 50px;
+    background-color: #00BC5B;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFF;
+    padding: 0 10px;
+}
+
+.top-search img{
+    width: 30px;
+    height: 30px;
+}
+
+.search-div{
+    height: 40px;
+    width: 70%;
+    background-color: #FFF;
+    border-radius: 20px;
+    color: #666666;
+    display: flex;
+    align-items: center;
+}

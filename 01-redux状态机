@@ -1,0 +1,22 @@
+使用
+    1. 安装
+        yarn add redux react-redux -S
+    
+    2. 引入 store.js中
+
+
+store：
+    核心概念，状态仓库，每个应用只能一个store，所有交互数据都存放在store内
+    //创建状态仓库
+    import {createStore} from 'redux'
+
+    var store = createStore(function(){
+
+    })
+
+    //仓库取值
+    store.getState()    //获取值
+
+核心概念：
+Reducer(计算修改)：
+    计算者，通过计算，产生一个新的状态返回给store，它是修改状态的唯一方式
